@@ -25,10 +25,10 @@ Then, execute ``` run script ``` to run the container
 Once the docker container is running, in another terminal execute the following instructions and copy ```Container ID```: 
 
  ```bash
- docker container -ls  
+ docker container ls  
  ```  
 ```bash 
-docker excec Container_ID  -it /bin/bash 
+docker exec -it Container_ID   /bin/bash 
 ```
 ```bash 
 source root/catkin_ws/devel/setup.bash
