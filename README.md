@@ -108,8 +108,6 @@ rocker --version
 ```
 
 
-
-
 [docker]: https://docs.docker.com/engine/install/ubuntu/
 [nvidia-docker]: https://github.com/NVIDIA/nvidia-docker
 [rocker]: https://github.com/osrf/rocker
