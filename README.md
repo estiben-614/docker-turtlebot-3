@@ -33,7 +33,7 @@ docker excec Container_ID  -it /bin/bash
 ```bash 
 source root/catkin_ws/devel/setup.bash
 ```
-+ Afterward, in this terminal execute the navigation simulation or the SLAM simulation, and then, repeat the previuos commands in a diferent  terminal to run the other simulation 
+Afterward, in this terminal execute the navigation simulation or the SLAM simulation, and then, repeat the previuos commands in a diferent  terminal to run the other simulation 
 
 #### Navigation simulation:
 ```bash 
@@ -81,7 +81,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 docker run hello-world
 ```
-+ Documentation [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)| [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
++ Documentation [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/) | [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
 
 
 ### 2. How to install Nvidia Container Toolkit?
